@@ -11,6 +11,7 @@ body {
     justify-content: center;
     height: 100vh;
     background: linear-gradient(45deg, lightblue, blue);
+    position: relative;
 }
 
 section {
@@ -47,6 +48,7 @@ form {
     padding: 0.5rem 1rem;
     border-radius: 5px;
     border: 1px solid gray;
+    font-size: 1.2rem;
 }
 
 label {
@@ -110,4 +112,11 @@ label {
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
+}
+
+img {
+    width: 150px;
+    position: absolute;
+    left: 5rem;
+    top: 5rem;
 }
