@@ -90,11 +90,24 @@ label {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 0.5rem;
+    gap: 1rem;
 }
 
 .ausgabe p {
     text-align: center;
     font-size: 1.2rem;
     color: red;
+    height: 2rem;
+}
+
+.ersterTeil {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.zweiterTeil {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
 }
