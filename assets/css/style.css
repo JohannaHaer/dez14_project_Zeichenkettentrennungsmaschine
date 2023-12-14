@@ -1,8 +1,13 @@
+@font-face {
+    font-family: 'RobotoMono';
+    src: url('../fonts/RobotoMono-VariableFont_wght.ttf');
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Nunito';
+    font-family: 'RobotoMono';
 }
 
 body {
@@ -105,13 +110,11 @@ label {
 .ersterTeil {
     display: flex;
     flex-direction: column;
-    gap: 0.5rem;
 }
 
 .zweiterTeil {
     display: flex;
     flex-direction: column;
-    gap: 0.5rem;
 }
 
 img {
