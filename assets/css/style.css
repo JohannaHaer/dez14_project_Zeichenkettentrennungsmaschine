@@ -45,7 +45,7 @@ form {
 #zeichenkette, #trenner {
     background-color: white;
     padding: 0.5rem 1rem;
-    border-radius: 2px;
+    border-radius: 5px;
     border: 1px solid gray;
 }
 
