@@ -110,6 +110,7 @@ label {
 .ersterTeil {
     display: flex;
     flex-direction: column;
+    text-align: center;
 }
 
 .zweiterTeil {

@@ -12,14 +12,21 @@ let trennen = () => {
     let davor = document.querySelector("#davor").checked
     let danach = document.querySelector("#danach").checked
 
-    switch(true){
-        case davor:
-            output1.innerHTML = slice1
-            output2.innerHTML = slice2
-            break
-        case danach:
-            output1.innerHTML = slice3
-            output2.innerHTML = slice4
-            break
+switch(zeichenkette.includes(trenner)) {
+    case true:
+        switch(true){
+            case davor:
+                output1.innerHTML = slice1
+                output2.innerHTML = slice2
+                break
+            case danach:
+                output1.innerHTML = slice3
+                output2.innerHTML = slice4
+                break
+        }
+        break;
+    case false:
+        output1.innerHTML = `Bitte gibt einen Buchstaben ein, der in deiner Zeichenkette vorkommt`
+        break;
     }
 }
