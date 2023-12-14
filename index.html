@@ -7,6 +7,37 @@
     <title>Zeichenkettentrennungsmaschine</title>
 </head>
 <body>
+    <section>
+        <h1>Zeichenkettentrennungsmaschine</h1>
+        <form onsubmit="trennen(); return false">
+            <label for="">Zu trennende Zeichenkette</label>
+            <input type="text" id="zeichenkette" placeholder="Gib einen Text ein" required>
+            <label for="">Trennen bei Zeichenkette</label>
+            <input type="text" id="trenner" placeholder="Gib die Trennstelle an" required>
+            <div class="radio">
+                <div>
+                    <input type="radio" name="position" id="davor" required>
+                    <label>davor trennen</label>
+                </div>
+                <div>
+                    <input type="radio" name="position" id="danach" required>
+                    <label>danach trennen</label>
+                </div>
+                <input type="submit" class="submit">
+            </div>
+        </form>
+        <h2>Ausgabe</h2>
+        <div class="ausgabe">
+            <div class="ersterTeil">
+                <h3>Vorderer Teil</h3>
+                <p id="output1"> </p>
+            </div>
+            <div class="zweiterTeil">
+                <h3>Hinterer Teil</h3>
+                <p id="output2"></p>
+            </div>
+        </div>
+    </section>
     <script src="./assets/js/main.js"></script>
 </body>
 </html>
