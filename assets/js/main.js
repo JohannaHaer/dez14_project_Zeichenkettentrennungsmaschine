@@ -21,8 +21,5 @@ let trennen = () => {
             output1.innerHTML = slice3
             output2.innerHTML = slice4
             break
-        default:
-            output1.innerHTML = `Gib einen Buchstaben ein, der im Satz vorkommt`
-            output2.innerHTML = `los`
     }
 }
