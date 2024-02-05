@@ -4,6 +4,7 @@ let trennen = () => {
     let trenner = document.querySelector('#trenner').value
     let output1 = document.querySelector('#output1')
     let output2 = document.querySelector('#output2')
+    let output3 = document.querySelector('#output3')
     let atIndex = zeichenkette.indexOf(trenner)
     let slice1 = zeichenkette.slice(0, atIndex)
     let slice2 = zeichenkette.slice(atIndex)
@@ -26,7 +27,7 @@ switch(zeichenkette.includes(trenner)) {
         }
         break;
     case false:
-        output1.innerHTML = `Bitte gibt einen Buchstaben ein, der in deiner Zeichenkette vorkommt`
+        output3.innerHTML = `Bitte gibt einen Buchstaben ein, der in deiner Zeichenkette vorkommt`
         break;
     }
 }
